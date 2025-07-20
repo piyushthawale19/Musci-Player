@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">    
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle" id="menuIcon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>  
+
+            <img src="img/OIP.webp" class="song-img">  
+            <h1>Cinnamon Girl</h1>
+            <p>Lana Del Rey</p>   
+
+            <audio id="song">
+                <source src="audio/Lana Del Rey - Cinnamon Girl.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div id ="back"><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div id="next"><i class="fa-solid fa-forward"></i></div>
+            </div>
+
+            <!-- Hidden Music List -->
+            <div class="music-list" id="musicList">
+                <div class="music-item" onclick="loadSong(0)">
+                    <p>Cinnamon Girl - Lana Del Rey</p>
+                </div>
+                <div class="music-item" onclick="loadSong(1)">
+                    <p>Summertime Sadness - Lana Del Rey</p>
+                </div>
+                <div class="music-item" onclick="loadSong(2)">
+                    <p>Born To Die - Lana Del Rey</p>
+                </div>
+                <div class="music-item" onclick="loadSong(3)">
+                    <p>Young and Beautiful - Lana Del Rey</p>
+                </div> 
+                <div class="music-item" onclick="loadSong(4)">
+                    <p>Sorry - Justin Bieber</p>
+                </div> 
+                <div class="music-item" onclick="loadSong(5)">
+                    <p>Good For You - Selena Gomez</p>
+                </div>
+                 <div class="music-item" onclick="loadSong(6)">
+                    <p>Lily - Alan Walker</p>
+                </div>
+                <div class="music-item" onclick="loadSong(7)">
+                    <p>Cold/Mess - Prateek Kuhad</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
