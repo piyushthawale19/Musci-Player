@@ -14,50 +14,50 @@ const songs = [
     {
         title: "Cinnamon Girl",
         artist: "Lana Del Rey",
-        src: "audio/Lana Del Rey - Cinnamon Girl.mp3",
-        img: "img/OIP.webp"
+        src: "Lana Del Rey - Cinnamon Girl.mp3",
+        img: "OIP.webp"
     },
     {
         title: "Summertime Sadness",
         artist: "Lana Del Rey",
-        src: "audio/Lana Del Rey - Summertime Sadness (Official Music Video).mp3",
-        img: "img/download.jpg"
+        src: "Lana Del Rey - Summertime Sadness (Official Music Video).mp3",
+        img: "download.jpg"
     },
     {
         title: "Born To Die",
         artist: "Lana Del Rey",
-        src: "audio/Lana Del Rey - Born To Die.mp3",
-        img: "img/download (1).jpg"
+        src: "Lana Del Rey - Born To Die.mp3",
+        img: "download (1).jpg"
     },
     {
         title: "Young and Beautiful",
         artist: "Lana Del Rey",
-        src: "audio/Lana Del Rey - Young and Beautiful.mp3",
-        img: "img/download (2).jpg"
+        src: "Lana Del Rey - Young and Beautiful.mp3",
+        img: "download (2).jpg"
     },
     {
         title: "Sorry",
         artist: "Justin Bieber",
-        src: "audio/Justin Bieber - Sorry (PURPOSE _ The Movement).mp3",
-        img: "img/images.jpg"
+        src: "Justin Bieber - Sorry (PURPOSE _ The Movement).mp3",
+        img: "images.jpg"
     },
     {
         title: "Good For You",
         artist: "Selena Gomez",
-        src: "audio/Selena Gomez - Good For You.mp3",
-        img: "img/download (3).jpg"
+        src: "Selena Gomez - Good For You.mp3",
+        img: "download (3).jpg"
     },
     {
         title: "Lily",
         artist: "Alan Walker",
-        src: "audio/Lily.mp3",
-        img: "img/lily.jpg"
+        src: "Lily.mp3",
+        img: "lily.jpg"
     },
     {
         title: "Cold/Mess",
         artist: "Prateek Kuhad",
-        src: "audio/Prateek Kuhad - cold_mess.mp3",
-        img: "img/download (4).jpg"
+        src: "Prateek Kuhad - cold_mess.mp3",
+        img: "download (4).jpg"
     }
 ];
 
